@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline');
+
+
+body {
+    margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+#shapes-box{
+    border: 5px solid black;
+    padding: 10px;
+    flex-basis: 200px;
+    align-self: stretch;
+    display: flex
+}
+#purple-box {
+    background-color: purple;
+    flex-basis: 50px;
+    height: 150px;
+    align-self: flex-end
+}
+#green-box {
+    background-color: green;
+    align-self: stretch;
+    margin-left: 50px; 
+    flex-basis: 40%;
+}
+#blue-circle{
+    background-color: #16d0ff;
+    align-self: stretch;
+    flex-basis: 200px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+#second-box {
+    border: gray dotted 5px;
+    margin-top: 20px;
+    padding: 40px;
+    flex-basis: 250px;
+    display: flex;
+}
+#manila-box {
+    background-color: moccasin;
+    box-shadow: 5px 5px 1px grey;
+    align-self: stretch;
+    width: 100%;
+}
+#text-box {
+    margin-top: 20px;
+    flex-basis: 300px;
+    align-self: center;
+    width: 300px;
+    border: 1px solid #c2c2c2;
+    box-shadow: 3px 3px 3px rgb(194, 194, 194);
+    text-align: center;
+    color: #0000bb;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kumar One Outline" ,sans-serif;
+}
